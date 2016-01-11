@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>transform 功能的基础知识</title>
+	<!--旋转   缩放  移动   倾斜-->
+	<style>
+		div{
+			width: 300px;
+			margin: 150px auto;
+			background-color: aqua;
+			text-align: center;
+			/*transform: rotate(45deg); rotate(<angle>)： 指定对象的2D rotation（2D旋转），需先有transform-origin属性的定义
+*/
+			/*-webkit-transform: rotate(45deg);*/
+			/*transform: scale(3.5); scale(<number>[, <number>])： 指定对象的2D scale（2D缩放）。第一个参数对应X轴，第二个参数对应Y轴。如果第二个参数未提供，则默认取第一个参数的值 */
+
+			/*transform: translate(0,250px);  translate(<length>[, <length>])： 指定对象的2D translation（2D平移）。第一个参数对应X轴，第二个参数对应Y轴。如果第二个参数未提供，则默认值为0  */
+
+			transform: skew(30deg,30deg); /* skew(<angle> [, <angle>])： 指定对象skew transformation（斜切扭曲）。第一个参数对应X轴，第二个参数对应Y轴。如果第二个参数未提供，则默认值为0 */
+		}
+	</style>
+</head>
+<body>
+	<div>示例文字</div>
+</body>
+</html>

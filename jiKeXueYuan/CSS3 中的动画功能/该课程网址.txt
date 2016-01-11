@@ -1,0 +1,20 @@
+CSS3 中的动画功能
+
+http://www.jikexueyuan.com/course/1342.html
+
+
+课时列表：
+
+1、Transitions 功能 06:17
+
+本课时介绍 Transitions 功能，在 CSS3 中，Transitions 功能通过将元素的某一个属性从一个属性值指定的时间内平滑过渡到另外一个属性值来实现动画功能。
+
+
+2、Animations功能 04:42
+
+本课时讲解 Animations 功能，Animations 功能与 Transitions 功能相同，但是，Animations 实现的动画效果要比 Transitions 实现的动画效果更具有客观性。
+
+
+3、实现动画的方法 05:57
+
+本课时讲解实现动画的方法，包含，linear、ease-in、ease-out、ease、ease-in-out，使用不同的动画方法，可以让动画以不同的方式进行执行。
